@@ -1,0 +1,35 @@
+{
+  "name": "bootstrap-vue-starter",
+  "version": "0.0.1",
+  "description": "Starter Template for bootstrap-vue",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --hot --host 0.0.0.0 --public",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "popper.js": "^1.14.3",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.9.1",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "vue-loader": "^15.2.4",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
